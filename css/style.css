@@ -1,0 +1,129 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Neucha:regular&display=swap&subset=cyrillic-ext");
+@import url(https://fonts.googleapis.com/css?family=Mulish:regular,500,300italic,italic&display=swap&subset=cyrillic-ext );
+
+@font-face {
+	font-family: 'Otrada';
+	src: url('../fonts/Otrada.woff2') format('woff2'),
+		 url('../fonts/Otrada.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Italic.woff2') format('woff2'),
+		 url('../fonts/CeraPro-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('../fonts/CeraPro-Regular.woff2') format('woff2'),
+		 url('../fonts/CeraPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-family: "Mulish", serif;
+	font-size: 16px; 
+}
+body {
+	line-height: 1;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+	color: darkcyan;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #0b2963;
+	letter-spacing: 15px;
+}
+.title  {
+	color: #4e7e7e;
+	text-align: right;
+	font-family: "Otrada", serif;
+	font-style: normal;
+	tab-size: 50px;
+	font-weight: 100;
+	line-height: 150%;
+}
+.title>p+P{
+	font-family: "Mulish";
+	font-style: normal;
+}
+.list{
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+.text .list{
+	font-size: 20px ;
+	font-family: "Neucha", serif;
+	color: #04488b;
+}
+.subtitle{
+	font-family: "Cera Pro", serif;
+	text-align: center;
+	font-size: 40px;
+	color: #395b36;
+	text-shadow: 3px 3px 8px darkolivegreen;
+	text-transform: uppercase;
+}
+.text{
+	color: #687b81;
+	line-height: 130%;
+	text-align: justify;
+}
+p.value{
+	color: #1e568d;
+	font-family: "Neucha", serif;
+	font-style: oblique;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: right;
+	text-decoration: underline rgba(80, 89, 99, 0.2);
+}
+.item{
+	color: #04488b;
+	font-weight: 600;
+}
+.source{
+	color: #165757;
+	font-family: "Otrada", serif;
+	text-align: right;
+	font-size: 12px;
+}
